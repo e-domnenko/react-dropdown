@@ -149,12 +149,12 @@ class Dropdown extends Component {
     })
     const placeholderClass = classNames({
       [`${baseClassName}-placeholder`]: true,
-      [placeholderClassName]: !!placeholderClassName,
-      'render-closed': this.props.renderClosed
+      [placeholderClassName]: !!placeholderClassName
     })
     const menuClass = classNames({
       [`${baseClassName}-menu`]: true,
-      [menuClassName]: !!menuClassName
+      [menuClassName]: !!menuClassName,
+      'render-closed': this.props.renderClosed
     })
     const arrowClass = classNames({
       [`${baseClassName}-arrow`]: true,

@@ -22,3 +22,6 @@ example/bundle.js
 
 # This project doesn't use Yarn
 yarn.lock
+
+#IDEs
+.idea/

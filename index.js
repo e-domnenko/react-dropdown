@@ -149,7 +149,8 @@ class Dropdown extends Component {
     })
     const placeholderClass = classNames({
       [`${baseClassName}-placeholder`]: true,
-      [placeholderClassName]: !!placeholderClassName
+      [placeholderClassName]: !!placeholderClassName,
+      'render-closed': this.props.renderClosed
     })
     const menuClass = classNames({
       [`${baseClassName}-menu`]: true,
@@ -161,7 +162,8 @@ class Dropdown extends Component {
     })
 
     const value = (<div className={placeholderClass}>{placeHolderValue}</div>)
-    const menu = this.state.isOpen ? <div className={menuClass}>{this.buildMenu()}</div> : null
+    const menu = this.state.isOpen || this.props.renderClosed
+      ? <div className={menuClass}>{this.buildMenu()}</div> : null
 
     return (
       <div className={dropdownClass}>

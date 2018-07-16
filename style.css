@@ -61,6 +61,14 @@
   text-transform: capitalize;
 }
 
+.Dropdown-menu.render-closed {
+  display: none;
+}
+
+.is-open .Dropdown-menu {
+  display: block;
+}
+
 .Dropdown-option {
   box-sizing: border-box;
   color: rgba(51, 51, 51, 0.8);

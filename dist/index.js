@@ -204,8 +204,8 @@ var Dropdown = function (_Component) {
 
       var dropdownClass = (0, _classnames2.default)((_classNames = {}, _defineProperty(_classNames, baseClassName + '-root', true), _defineProperty(_classNames, className, !!className), _defineProperty(_classNames, 'is-open', this.state.isOpen), _classNames));
       var controlClass = (0, _classnames2.default)((_classNames2 = {}, _defineProperty(_classNames2, baseClassName + '-control', true), _defineProperty(_classNames2, controlClassName, !!controlClassName), _defineProperty(_classNames2, disabledClass, !!disabledClass), _classNames2));
-      var placeholderClass = (0, _classnames2.default)((_classNames3 = {}, _defineProperty(_classNames3, baseClassName + '-placeholder', true), _defineProperty(_classNames3, placeholderClassName, !!placeholderClassName), _defineProperty(_classNames3, 'render-closed', this.props.renderClosed), _classNames3));
-      var menuClass = (0, _classnames2.default)((_classNames4 = {}, _defineProperty(_classNames4, baseClassName + '-menu', true), _defineProperty(_classNames4, menuClassName, !!menuClassName), _classNames4));
+      var placeholderClass = (0, _classnames2.default)((_classNames3 = {}, _defineProperty(_classNames3, baseClassName + '-placeholder', true), _defineProperty(_classNames3, placeholderClassName, !!placeholderClassName), _classNames3));
+      var menuClass = (0, _classnames2.default)((_classNames4 = {}, _defineProperty(_classNames4, baseClassName + '-menu', true), _defineProperty(_classNames4, menuClassName, !!menuClassName), _defineProperty(_classNames4, 'render-closed', this.props.renderClosed), _classNames4));
       var arrowClass = (0, _classnames2.default)((_classNames5 = {}, _defineProperty(_classNames5, baseClassName + '-arrow', true), _defineProperty(_classNames5, arrowClassName, !!arrowClassName), _classNames5));
 
       var value = _react2.default.createElement(
